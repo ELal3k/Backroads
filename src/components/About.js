@@ -1,14 +1,10 @@
 import aboutImg from "../images/about.jpeg";
+import Title from "./Title";
 
 export default function About() {
   return (
     <section className="section" id="about">
-      <div className="section-title">
-        <h2>
-          about <span>us</span>
-        </h2>
-      </div>
-
+      <Title title="about" subtitle="us" />
       <div className="section-center about-center">
         <div className="about-img">
           <img src={aboutImg} className="about-photo" alt="awesome beach" />
@@ -25,7 +21,11 @@ export default function About() {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a rel="noreferrer" href="#" className="btn">
+          <a
+            rel="noreferrer"
+            href="https://en.wikipedia.org/wiki/Tours"
+            className="btn"
+          >
             read more
           </a>
         </article>
