@@ -21,11 +21,7 @@ export default function About() {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a
-            rel="noreferrer"
-            href="https://en.wikipedia.org/wiki/Tours"
-            className="btn"
-          >
+          <a rel="noreferrer" href="#about" className="btn">
             read more
           </a>
         </article>

@@ -60,7 +60,7 @@ export const tours = [
   {
     id: 3,
     image: tour3,
-    date: "september 15th, 2020",
+    date: "september 15th, 2023",
     title: "explore hong kong",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
     location: "hong kong",
